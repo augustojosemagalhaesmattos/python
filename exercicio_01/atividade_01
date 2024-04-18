@@ -1,0 +1,28 @@
+# imports
+import os
+
+
+#limpando o terminal
+os.system('cls')
+
+print('-'*70)
+print('ENTRADA DE DADOS EM PYTHON')
+print('='*70)
+
+# Entrada com Casting
+nome = str (input('Entre com um nome:'))
+altura = float ( input('Entre com sua altura:'))
+idade = int ( input('Entre com sua idade:'))
+cep = int(input('Entre com o seu CEP:'))
+bairro = str(input('Entre com o seu bairro:'))
+robô = str(input('você é um robô: Sim ou Não?')) 
+
+# Saida interpolada
+print('='*70)
+print(f'Bem Vindo!! {nome}', type (nome))
+print(f'Sua altura é: {altura} ', type (altura))
+print(f'Sua idade é: {idade} ', type (idade))
+print(f'Seu CEP: {cep} ', type (cep))
+print(f'Seu bairro:: {bairro} ', type (bairro))
+print(f'Você é um robô: {robô} ', type (robô))
+
