@@ -9,17 +9,14 @@ print('Exercicio Letra D')
 print('-'*70)
 
 # Entrada com Casting
-print()
-print('--- DIVISAO')
 print('-'*70)
-dividendo = float(input('Entre com o dividendo: '))
-divisor = float(input('Entre com o divisor: '))
+numero1 = float(input('Digite o primeiro número '))
+numero2 = float(input('Digite o segundo número '))
 
 # Processemnto
-quociente = dividendo / divisor
+resultado_divisao = numero1 / numero2
 
 # Saida interpolada
 print('-'*70)
-print('RESULTADOS')
-print('-'*70)
-print(f'A divisão de {dividendo} / {divisor} é: {quociente}')
+print('RESULTADO')
+print(f'o resultado da divisão é: {resultado_divisao:.4f}')
