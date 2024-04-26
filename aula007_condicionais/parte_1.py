@@ -1,6 +1,6 @@
 # Curso de Desenvolvimento de Sisemas
 # Turma 0152 (Braba)
-# Autor: Sebastião Marcos
+# Autor: Augusto Mattos
 # Data: 12/04/2024
 # Estudo de Condicionais: Parte 1 
 # Objetivo: Verificando um valor decimal
@@ -15,14 +15,14 @@ print('Estudo de Condicional: Parte 1')
 print('='*70)
 
 # Entrada
-valor = float(input('Digite um número: '))
+numero = float(input('Digite um número: '))
 resposta = ''
 
 # Condicional
-if valor % 2 == 0:
-    resposta = f'Entrada incorreta< o valor {valor: .0f} é um inteiro!'
+if numero % 2 == 0:
+    resposta = f'O número {numero: .0f} é par'
 else:
-    resposta = f'Entrada correta, valor {valor} é um decimal!'
+    resposta = f'O número {numero} é impar!'
     
     # Saida
 print('='*70)
