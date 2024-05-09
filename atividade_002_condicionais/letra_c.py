@@ -11,5 +11,8 @@ print('-'*70)
 velocidade = float(input('Digite a velocidade: '))
 
 # Velocidade
-if 1 >= 60:
-    print(f'{1} ')
+if velocidade <= 60:
+    print(f'{velocidade}km/h, velocidade ideal. ')
+else:
+    print(f'{velocidade}km/h, favor reduzir a velocidade. ')
+    

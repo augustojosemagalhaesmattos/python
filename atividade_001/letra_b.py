@@ -11,7 +11,7 @@ print('Exercicio Letra B')
 print('-'*70)
 
 # Entrada com Casting
-nascimento = int(input('Entre com seu nascimento'))
+nascimento = int(input('Entre com seu nascimento: '))
 
 # Processamento
 ano_atual = datetime.datetime.now().year

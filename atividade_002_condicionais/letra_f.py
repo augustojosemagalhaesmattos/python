@@ -12,8 +12,6 @@ ano = int(input('Por favor, insira um ano:'))
 
 # Processo
 if ano % 100 != 0 and ano % 4 == 0:
-    
-    # Saida
     print(f'{ano} é um ano bissexto')
 else: 
     print(f'{ano} não é um ano bissexto')

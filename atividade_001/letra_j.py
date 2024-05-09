@@ -10,11 +10,11 @@ print('Calcular o perimetro do retângulo')
 print('-'*70)
 
 # Entrada de Dados
-comprimento = float(input('Digite o comprimento do retângulo: '))
-largura = float(input('Digite a largura do retângulo: '))
+base = float(input('Digite a base do retângulo: '))
+altura = float(input('Digite a altura do retângulo: '))
 
 # Processamento
-perimetro = 2 * (comprimento + largura)
+perimetro = 2 * (base + altura)
 
 # Saida interpolada
 print(f'O perimetro é: {perimetro}')
