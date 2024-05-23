@@ -16,6 +16,9 @@ nome = str(input('Seu primeiro nome: '))
 nome_do_meio = str(input('Seu nome do meio: '))
 sobrenome = str(input('Seu sobrenome: '))
 
+juncao = "-".join([nome, nome_do_meio, sobrenome])
+
+print(f'Seu nome completo é: {juncao}')
 
  
  
