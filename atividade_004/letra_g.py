@@ -7,6 +7,10 @@ import os
 
 os.system('cls')
 
+print('='*70)
+print('Exercicio Letra G')
+print('='*70)
+
 # Entrada de Dados
 numero = int(input('Digite um número inteiro: '))
 
@@ -16,7 +20,9 @@ centenas, resto = divmod(resto, 100)
 dezenas, unidades = divmod(resto, 10)
 
 # Saida interpolada
+print('-'*70)
 print(f'Quantidade de unidades:', unidades)
 print(f'Quantidade de dezenas:', dezenas)
 print(f'Quantidade de centenas:', centenas)
 print(f'Quantidade de milhares:', milhares)
+print(f'-'*70)
