@@ -8,12 +8,14 @@ os.system('cls')
 print('-'*70)
 print('Exercicio Letra B')
 print('-'*70)
+
 soma = 0
+
 lista = 10, 20, 30, 40, 50
-for elemento in lista:
-   soma += lista
 
-print(f'A soma dos numero é: {soma}')
+for indice, numero in enumerate(lista):
+   print(f'{indice}: {numero}')
+   soma += numero
 
-
-
+print(f'A soma dos numeros é: {soma}')
+print(f'{indice}: {lista}')
