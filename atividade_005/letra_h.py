@@ -19,4 +19,4 @@ else:
     
     for numero in range(inicio, fim + 1):
         if numero not in numeros_a_ignorar:
-            print(numero)
+            print(numero, end= ' | ')

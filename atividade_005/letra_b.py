@@ -20,6 +20,9 @@ for var_iteradora in range(1, 101):
 
     if numero >= 1 and numero <= 100:
      print(f'O numero {numero} está dentro do intervalo. ')
+    else:
+        print(f'"{numero}" numero invalido!!')
+        
    
    
    

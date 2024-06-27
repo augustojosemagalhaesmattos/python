@@ -10,5 +10,15 @@ import os
 
 os.system('cls')
 
+soma = 0
+
 for var_iteradora in range(1, 101):
-    
+    if var_iteradora % 2 == 0:
+        print()
+    else:
+        print(f'Numeros impares: "{var_iteradora}" ', end= ' ')
+        
+var_iteradora = enumerate
+print(f'{var_iteradora}')
+        
+        
