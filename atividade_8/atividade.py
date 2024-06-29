@@ -10,25 +10,23 @@ import os
 os.system('cls')
 
 print('='*70)
-print('Lista de tarefas')
+print('---Inesquecivel---')
 print('='*70)
 
 # Criando um conjunto vazio
 conjunto = set()
 
 # Pedindo ao usuário para inserir elementos
-print('-'*70)
 print("Liste suas tarefas ")
 print('-'*70)
 
-while True:
-    elemento = input("Elemento: ")
 
-    if elemento.lower() == 'fim':
-        break
+for tarefa in conjunto:
+    tarefa = str(input(f"{tarefa}ª tarefa: "))  
     
-    # Adicionando o elemento ao conjunto usando o método add()
-    conjunto.add(elemento)
 
-# Mostrando conjunto atual
-print("Conjunto atual:", conjunto)
+
+   
+
+
+   
