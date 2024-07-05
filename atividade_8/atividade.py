@@ -9,22 +9,29 @@ import os
 
 os.system('cls')
 
-print('='*70)
-print('---Inesquecivel---')
-print('='*70)
+print('-='*35)
+print("Bem-vindo ao gerenciador de convidados!")
+print('-='*35)
 
-# Criando um conjunto vazio
-conjunto = set()
+convidados = set()
 
-# Pedindo ao usuário para inserir elementos
-print("Liste suas tarefas ")
-print('-'*70)
+while True:
+# Estou pedindo para o usuario para ele digitar o nome do convidado. Caso ele queira sair,
+# vai digitar a palavra 'fim'
+    nome = input("Digite o nome do convidado (ou 'fim' para sair): ").strip()
 
-
-for tarefa in conjunto:
-    tarefa = str(input(f"{tarefa}ª tarefa: "))  
+    if nome.lower() == 'fim':
+        break  # Sai do loop se o usuário digitar 'fim'
     
+    if nome:  # Verifica se o nome não está vazio
+        convidados.add(nome) # Se o usuário inserir um nome válido (ou seja, não vazio), ele é adicionado ao conjunto convidados usando convidados.add(nome).
+        print(f"Convidado '{nome}' adicionado!")
 
+print("\nLista final de convidados:") 
+for index, convidado in enumerate(convidados, start=1):
+    print(f"{index}. {convidado}")
+
+# Após o loop, uma lista final de convidados é impressa usando um loop for, enumerando cada convidado na ordem em que foram adicionados.
 
    
 
