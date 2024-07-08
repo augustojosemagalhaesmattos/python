@@ -13,7 +13,7 @@ print('-='*35)
 print("Bem-vindo ao gerenciador de convidados!")
 print('-='*35)
 
-convidados = set()
+convidados = set() # Aqui, um conjunto vazio convidados é inicializado.
 
 while True:
 # Estou pedindo para o usuario para ele digitar o nome do convidado. Caso ele queira sair,
