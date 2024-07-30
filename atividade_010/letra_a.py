@@ -24,9 +24,9 @@ def separar_pares_impares(lista_numeros):
     return numeros_pares, numeros_impares, quantidade_pares, quantidade_impares
 
 numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
-pares, impares, qtd_pares, qtd_impares = separar_pares_impares(numeros)
+pares, impares, quantidade_pares, quantidade_impares = separar_pares_impares(numeros)
 
 print("Números pares:", pares)
 print("Números ímpares:", impares)
-print("Quantidade de números pares:", qtd_pares)
-print("Quantidade de números ímpares:", qtd_impares)
+print("Quantidade de números pares:", quantidade_pares)
+print("Quantidade de números ímpares:", quantidade_impares)
