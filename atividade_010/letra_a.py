@@ -30,3 +30,4 @@ print("Números pares:", pares)
 print("Números ímpares:", impares)
 print("Quantidade de números pares:", quantidade_pares)
 print("Quantidade de números ímpares:", quantidade_impares)
+
