@@ -25,8 +25,9 @@ while True:
     print('CÁLCULOS MATEMÁTICOS')
     print('-'*70)
     print(f'Cálculo da soma: {resultado_soma}')
-    print(f'Cálculo do produto: {resultado_soma}')
+    print(f'Cálculo do produto: {resultado_multi}')
     print(f'Cálculo da divisão: {resultado_divisao}, {erro}')
+    print('-'*70)
     
     sair = input("Deseja sair do programa? (s/n): ").strip().lower()
     if sair == 's':
