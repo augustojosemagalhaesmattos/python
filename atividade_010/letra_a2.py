@@ -7,26 +7,29 @@ import os
 
 
 os.system('cls')
-numeros = [1, 2, 3, 4, 5, 6, 7, 8]
 
-def separar_pares_impares(numeros):
-    numeros_pares = []
-    numeros_impares = []
+def separar_pares_impares(lista_numeros):
+    num_pares = []
+    num_impares = []
     
-    for numero in numeros:
-        if numero % 2 == 0:
-            numeros_pares.append(numero)
-            qts_pares = len(numeros_pares)
-            
-        else:
-            numeros_impares.append(numero)
-            qts_impares = len(numeros_impares)
-            
-    
-    print(f'Numeros pares: {numeros_pares}, quantidade de pares: {qts_pares} ', end=' ')
-            
-separar_pares_impares(numeros)
-   
+    for numero in lista_numeros:
+     if numero % 2 == 0:
+        num_pares.append(numero)
+     else:
+        num_impares.append(numero)
+        
+qts_pares = len(num_pares)
+qts_impares = len(num_impares)
+     
+     return
+
+        
+numero = [1 ,2 ,3 ,4 ,5 ,6 ,7 ,8 ,9 ,0 ]
+        
+        
+
+        
+        
 
     
 
