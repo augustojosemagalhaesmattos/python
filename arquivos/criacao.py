@@ -12,13 +12,13 @@ lista = [
 ]
 
 # Caminho para a pasta onde o arquivo CSV será salvo
-pasta = 'arquivos_cvs/gravacao/'
+pasta = 'arquivos_csv/gravacao/'
 
 # Verificando se a pasta existe, se não, irá cria-la
 os.makedirs(pasta, exist_ok=True)
 
 # nome para o arquivo CSV para gravar as informações
-arquivo = 'arquivos_cvs/gravacao/alunas.csv'
+arquivo = 'arquivos_csv/gravacao/alunas.csv'
 
 # Caminho completo do arquivo CSV
 caminho_arquivos = os.path.join(pasta, arquivo)
