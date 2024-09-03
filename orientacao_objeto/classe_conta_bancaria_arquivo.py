@@ -29,7 +29,7 @@ while True:
     contas.append({
         'numero_conta': conta.numero_conta,
         'nome_titular': conta.nome_titular,
-        'Saldo': conta.saldo,
+        'saldo': conta.saldo,
         'agencia': conta.agencia,
         'tipo_conta': conta.tipo_conta
     })
