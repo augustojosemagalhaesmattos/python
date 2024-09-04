@@ -21,7 +21,7 @@ divisao1 = Divisao(numero1, numero2)
 resultado_divisao = divisao1.divisao()
 
 print('-'*70)
-print(f'A Divisao é {resultado_divisao}')
+print(f'A Divisao é {resultado_divisao: .4f}')
 
 
     
