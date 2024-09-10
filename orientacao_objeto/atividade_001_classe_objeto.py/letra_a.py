@@ -5,31 +5,31 @@
 import os
 
 
-class Calculadora:
-    def __init__(self, a, b, c):
-        self.a = a
-        self.b = b
-        self.c = c
+class Calcular:
+    def __init__(self, valor1, valor2, valor3):
+        self.valor1 = valor1
+        self.valor2 = valor2
+        self.valor3 = valor3
         
-    def somar(self):
-        return self.a + self.b + self.c
+    def multiplicar(self):
+        multiplicando = self.valor1 * self.valor2 * self.valor3
+        return multiplicando
     
-    def multiplicacao(self):
-        return self.a * self.b * self.c
+    def somar(self):
+        somando = self.valor1 + self.valor2 + self.valor3
+        return somando
     
 os.system('cls')
-print('-'*70)
-a = int(input('Digite o 1º valor: '))
-b = int(input('Digite o 2º valor: '))
-c = int(input('Digite o 3º valor: '))
+valor1 = int(input('Digite o 1º valor: '))
+valor2 = int(input('Digite o 2º valor: '))
+valor3 = int(input('Digite o 3º valor: '))
 
-valores = Calculadora(a, b, c)
+calcular = Calcular(valor1, valor2, valor3)
 
-resultado_soma = valores.somar()
-resultado_multiplicar = valores.multiplicacao()
+resultado_soma = calcular.somar()
+resultado_multiplicacao = calcular.multiplicar()
 
-print('='*70)
-print(f'Soma dos tres valores: {resultado_soma}')
-print('='*70)
-print(f'Multiplicação dos tres valores: {resultado_multiplicar}')
-print('='*70)
+print(f'A multplicacao dos tres valores é: {resultado_multiplicacao}')
+print(f'A soma dos tres valores é: {resultado_soma}')
+
+    

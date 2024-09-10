@@ -5,16 +5,36 @@ import os
 os.system('cls')
 
 class Numeros_Pares:
-    def __init__(self, pares):
-        self.pares = pares
+    def __init__(self, numero, final):
+        self.numero = numero
+        self.final = final
+
+    def imprimir_numeros(self, numero, final):
+       pass
     
 class Numeros(Numeros_Pares):
-    def numeros_pares(self):
-        for i in range(1, 101):
-            if i % 2 == 0:
-                print(i)
+    # def __init__(self, numero, final):
+    #     self.numero = numero
+    #     self.final = final
+    
+    def imprimir_numeros(self):
+        
+       for numero in range(self.numero, self.final):
+          if numero % 2 == 0:
+            print(numero, end= ' | ')
+            soma += numero
+        
             
-pares = Numeros()
+os.system('cls')
+numeros_pares = Numeros(0, 101)
+numeros_pares.imprimir_numeros()
+
+
+
+                
+            
+            
+
             
             
         
