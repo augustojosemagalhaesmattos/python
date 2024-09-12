@@ -4,35 +4,31 @@
 import os
 
 
-class Numeros_Primos:
-    def __init__(self, inicial, final):
-        self.inicial = inicial
-        self.final = final
+class Primos:
+    def __init__(self, inicio, fim):
+        self.inicio = inicio
+        self.fim = fim
 
-    def intervalo(self, inical, final):
-        pass
+    def e_primo(self, num):
+        if num < 2:
+            return False
+        for i in range(2, int(num**0.5) + 1):
+            if num % i == 0:
+                return False
+        return True
+
+    def calcular_primos(self):
+        return [num for num in range(self.inicio, self.fim + 1) if self.e_primo(num)]
 
 
-class Primos(Numeros_Primos):
-    def __init__(self, inicial, final):
-        self.inicial = inicial
-        self.final = final
+# Entrada de dados pelo usuário
+os.system('cls')
+inicio = int(input("Digite o início do intervalo: "))
+fim = int(input("Digite o fim do intervalo: "))
 
-    def intervalo(self):
-     for i in range(0, 101):
-        for numero in range(inicio, fim + 1):
-          if numero > 1:  # somente verifica números maiores que 1
-            primo_atual = True
-            for i in range(2, int(numero ** 0.5) + 1):
-                if numero % i == 0:
-                    eh_primo_atual = False
-                    break
-            if primo_atual:
-                print(numero, end=" ")
-                
-inicio = int(input('Digite o 1º numero: '))
-fim = int(input('Digite o 2º numero: '))
+if inicio > fim:
+    print("O início do intervalo não pode ser maior que o fim.")
+else:
+    primos = Primos(inicio, fim).calcular_primos()
+    print(f"Números primos entre {inicio} e {fim}: {primos}")
 
-print()
-numeros_primos = Primos(inicio, fim)
-numeros_primos.intervalo
