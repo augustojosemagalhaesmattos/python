@@ -15,7 +15,7 @@ class imprimir(Intervalo):
           
 os.system('cls')
 fim = int(input('Digite o fim do intervalo: '))
-inicio= int(input('Digite o inicio do intervalo: '))
+inicio = int(input('Digite o inicio do intervalo: '))
 
 
 intervalo = imprimir(fim, inicio)
