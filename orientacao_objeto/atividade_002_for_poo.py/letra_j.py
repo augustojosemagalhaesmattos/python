@@ -55,7 +55,7 @@ class Numeros_impares(Impares):
         print(qts_impares)
                 
  
-                
+               
     
                 
                 
