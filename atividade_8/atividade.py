@@ -10,7 +10,7 @@ import os
 os.system('cls')
 
 print('-='*35)
-print("Bem-vindo ao gerenciador de convidados!")
+print("Bem-vindo ao gerenciador de convidados!!")
 print('-='*35)
 
 convidados = set() # Aqui, um conjunto vazio convidados é inicializado.
