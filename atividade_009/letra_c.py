@@ -9,7 +9,7 @@ print('Adicione 4 alunos')
 print('-='*30)
 for i in range(1, 5):
     aluno = input(f'Digite o {i}º aluno: ').capitalize()
-    carteira = input(f'Digite o numero da carteira do aluno: ')
+    carteira = input(f'Digite o numero da carteira do alunoo: ')
     print('-'*50)
     dicionario[aluno] = carteira
     
