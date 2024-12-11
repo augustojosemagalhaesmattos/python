@@ -11,7 +11,7 @@ import os
 os.system('cls')
 
 print('-'*70)
-print('Exercicio letra A')
+print('Exercicio letra Ab')
 print('-'*70)
 
 notas = []
